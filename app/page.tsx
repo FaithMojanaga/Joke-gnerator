@@ -54,10 +54,11 @@ export default function JokeGenerator() {
       </div>
 
       {joke && (
-        <p className="mt-6 text-xl text-center max-w-md animate-bounce">
-          {joke} 😭😭😭😭😂
-        </p>
-      )}
+  <p className="mt-6 text-xl text-center max-w-md animate-bounce text-black">
+    {joke} 😭😭😭😭😂
+  </p>
+)}
+
     </div>
   );
 }
